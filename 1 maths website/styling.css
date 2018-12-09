@@ -1,0 +1,52 @@
+#container{
+    width:1300px;
+    border: 1px solid grey;
+    margin:0 auto; /*0px for top and bottom , auto to left and right*/
+}
+
+#header{
+    height:100px;  
+    padding: 10px 0; /*top bottom and left right*/
+}
+
+#brand{
+    float:left;
+}
+
+/*a inside h1*/
+h1 a{
+    font-size : 50px; 
+    font-weight : 100;
+    color : purple;
+    text-decoration: none; 
+}
+
+#searchbox{
+    float:right; 
+    background:  linear-gradient(#E4F289, #B2E953);
+    width:400PX;
+    height:50px;
+    padding: 20px 10px 0 10px ; /*top right bottom left*/
+    margin-top:20px;
+}
+
+.text{
+    float : left;
+    width:200px;
+    padding:5px;
+    font-size: 15px;
+    color:#e36a0c;
+    background:white url(search_icon.png) right center no-repeat; 
+}
+.submit{
+    float:right;
+    padding:5px;
+    font-weight:bold;
+    color:white;
+    background: #a751d6;
+    font-size:15px;
+
+}
+ul{
+    list-style:none;
+}
